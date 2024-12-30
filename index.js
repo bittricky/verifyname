@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * namecheck
+ * verifyname
  * Command line tool to check a package name is available
  *
  * @author Mitul Patel <https://mitulpa.tel>

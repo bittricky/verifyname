@@ -7,7 +7,7 @@ export default async ({ clear = true }) => {
 	const pkgJson = await getPackageJson(`./../package.json`);
 
 	welcome({
-		title: `namecheck`,
+		title: `verifyname`,
 		tagLine: `by Mitul Patel`,
 		description: pkgJson.description,
 		version: pkgJson.version,
