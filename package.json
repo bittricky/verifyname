@@ -21,7 +21,12 @@
 		"utils"
 	],
 	"scripts": {
-		"format": "prettier --write \"./**/*.{js,json}\""
+		"format": "prettier --write \"./**/*.{js,json}\"",
+		"prepublishOnly": "pnpm run format && pnpm test",
+		"publish:patch": "pnpm version patch && pnpm publish",
+		"publish:minor": "pnpm version minor && pnpm publish",
+		"publish:major": "pnpm version major && pnpm publish",
+		"test": "vitest"
 	},
 	"dependencies": {
 		"chalk": "^5.4.1",
@@ -35,6 +40,7 @@
 		"npm-name": "^8.0.0"
 	},
 	"devDependencies": {
-		"prettier": "^3.4.2"
+		"prettier": "^3.4.2",
+		"vitest": "^2.1.8"
 	}
 }
