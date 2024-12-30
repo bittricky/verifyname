@@ -1,4 +1,4 @@
-# Name Check
+# Verify Name
 
 > Wouldn't it be nice to have a command-line tool to check if an NPM package name is available for use?
 
@@ -14,25 +14,25 @@ A command-line tool to check if an NPM package name is available for use.
 ## Installation
 
 ```bash
-npm install -g namecheck
+npm install -g verifyname
 # or
-pnpm add -g namecheck
+pnpm add -g verifyname
 ```
 
 ## Usage
 
 ```bash
-namecheck <package-name>
+verifyname <package-name>
 ```
 
 ### Examples
 
 ```bash
 # Check if "my-npm-package" is available
-namecheck my-npm-package
+verifyname my-npm-package
 
 # Check if "react" is available
-namecheck react
+verifyname react
 ```
 
 ### Terminal Output
@@ -63,7 +63,7 @@ View it at: https://www.npmjs.com/package/react
 
 ```bash
 git clone <repository-url>
-cd namecheck
+cd verifyname
 ```
 
 2. Install dependencies

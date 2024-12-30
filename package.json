@@ -1,5 +1,5 @@
 {
-	"name": "namecheck",
+	"name": "verifyname",
 	"description": "Command line tool to check a package name is available",
 	"version": "1.0.0",
 	"license": "MIT",
@@ -13,7 +13,7 @@
 		"url": "https://mitulpa.tel"
 	},
 	"keywords": [
-		"namecheck",
+		"verifyname",
 		"Mitul Patel"
 	],
 	"files": [
