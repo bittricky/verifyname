@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"type": "module",
 	"bin": {
-		"namecheck": "index.js"
+		"verifyname": "index.js"
 	},
 	"author": {
 		"name": "Mitul Patel",
